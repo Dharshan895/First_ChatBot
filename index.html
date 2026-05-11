@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat With Groq</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <main class="chat-area">
+
+        <!-- Messages -->
+        <div id="chat-box" class="chat-box"></div>
+
+        <!-- Typing Indicator -->
+        <div id="typing-indicator" class="typing-indicator"></div>
+
+        <!-- Input -->
+        <div class="input-area">
+
+            <input
+                type="text"
+                id="message"
+                placeholder="Type here..."
+                autocomplete="off"
+                aria-label="Message Input"
+            >
+
+            <button
+                id="send-btn"
+                type="button"
+                aria-label="Send Message"
+            >
+                ➤
+            </button>
+
+        </div>
+
+    </main>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
